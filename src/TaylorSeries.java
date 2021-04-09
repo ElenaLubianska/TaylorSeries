@@ -1,7 +1,7 @@
 public class TaylorSeries extends TaylorSeriesFact{
     static double approximation = 0;
 
-    public static double arctgFunction(double x, int n){
+    public static double arctgFunctionA(double x, int n){
 
         int[] arr = new int[]{0, 1, 0, -2, 0};
 

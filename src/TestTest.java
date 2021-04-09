@@ -14,7 +14,7 @@ public class TestTest {
     @Test
     public void test1(){
         double result = 1.0;
-       Assert.assertNotEquals("Result must be < 1", result, TaylorSeries.arctgFunction(x, n));
+       Assert.assertNotEquals("Result must be < 1", result, TaylorSeries.arctgFunctionA(x, n));
 
     }
     @Test

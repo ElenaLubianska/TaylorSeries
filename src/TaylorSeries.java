@@ -1,16 +1,8 @@
-public class TaylorSeries {
-    double approximation = 0;
+public class TaylorSeries extends TaylorSeriesFact{
+    static double approximation = 0;
 
-    public static int factorial(int num){
-        if (num == 0) {
-            return 1;
-        }
-        else{
-            return num * factorial(num - 1);
-        }
-    }
+    public static double arctgFunction(double x, int n){
 
-    public double arctgFunction(double x,int n){
         int[] arr = new int[]{0, 1, 0, -2, 0};
 
         for (int i = 0; i < n; i++) {
